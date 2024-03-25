@@ -90,9 +90,14 @@ obj/
 .idea/sqlDataSources.xml
 .idea/dynamic.xml
 .idea/uiDesigner.xml
+/.idea/navEditor.xml
+/.idea/assetWizardSettings.xml
+/.idea/gradle.xml
+/.idea/kotlinScripting.xml
 misc.xml
 deploymentTargetDropDown.xml
 render.experimental.xml
+/app/jacoco.exec
 
 # OS-specific files
 .DS_Store
