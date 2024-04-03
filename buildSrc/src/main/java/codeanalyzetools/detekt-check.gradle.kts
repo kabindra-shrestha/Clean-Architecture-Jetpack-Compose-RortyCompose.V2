@@ -38,5 +38,5 @@ tasks.withType<Detekt>().configureEach {
     include("**/*.kt", "**/*.kts")
     exclude("**/build/**", ".*/resources/.*", ".*test.*,.*/resources/.*,.*/tmp/.*")
 
-    jvmTarget = JavaVersion.VERSION_11.toString()
+    jvmTarget = JavaVersion.VERSION_17.toString()
 }

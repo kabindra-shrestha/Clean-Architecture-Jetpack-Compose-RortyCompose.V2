@@ -15,7 +15,7 @@ class AppThemeProvider constructor(private val context: Context) : ThemeProvider
     private val preferenceKeyChangedFlow = MutableSharedFlow<String>(extraBufferCapacity = 1)
 
     private val listener = SharedPreferences.OnSharedPreferenceChangeListener { _, key ->
-        preferenceKeyChangedFlow.tryEmit(key)
+        preferenceKeyChangedFlow.tryEmit(key!!)
     }
 
     companion object {

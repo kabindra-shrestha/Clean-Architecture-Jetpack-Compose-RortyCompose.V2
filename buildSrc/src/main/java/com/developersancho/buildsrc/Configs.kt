@@ -17,9 +17,9 @@ object Configs {
     const val Id = "com.developersancho.rortycompose"
     val VersionCode = generateVersionCode()
     val VersionName = generateVersionName()
-    const val MinSdk = 23
-    const val TargetSdk = 32
-    const val CompileSdk = 32
+    const val MinSdk = 26
+    const val TargetSdk = 34
+    const val CompileSdk = 34
     const val AndroidJunitRunner = "androidx.test.runner.AndroidJUnitRunner"
     val FreeCompilerArgs = listOf(
         "-Xjvm-default=all",
