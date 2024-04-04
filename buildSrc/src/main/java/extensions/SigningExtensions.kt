@@ -27,9 +27,9 @@ fun BaseExtension.setSigningConfigs(project: Project) = signingConfigs {
     }
 
     getByName("debug") {
-        storeFile = project.rootProject.file("signing/debug.keystore")
-        keyAlias = "androiddebugkey"
-        keyPassword = "android"
-        storePassword = "android"
+        storeFile = project.rootProject.file("signing/rortycompose-release.jks")
+        keyAlias = "vianet"
+        keyPassword = "V1@net#$%"
+        storePassword = "V1@net#$%"
     }
 }
