@@ -51,6 +51,7 @@ android {
     composeOptions {
         kotlinCompilerExtensionVersion = Versions.Compose
     }
+    namespace = "com.developersancho.jetframework"
 }
 
 dependencies {

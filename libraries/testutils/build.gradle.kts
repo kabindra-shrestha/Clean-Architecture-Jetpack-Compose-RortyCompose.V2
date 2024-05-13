@@ -37,6 +37,7 @@ android {
             "-Xjvm-default=all"
         )
     }
+    namespace = "com.developersancho.testutils"
 }
 
 dependencies {

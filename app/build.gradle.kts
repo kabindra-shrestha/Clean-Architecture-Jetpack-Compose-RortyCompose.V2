@@ -110,6 +110,7 @@ android {
             isIncludeAndroidResources = true
         }
     }
+    namespace = "com.developersancho.rortycompose"
 }
 
 android.applicationVariants.all {
